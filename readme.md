@@ -27,7 +27,9 @@ C/  Fonctionnalités principales
 
 - Indicateurs clés (min, max, moyenne, évolution)
 
-D/  Filtres dynamiques
+- Affichage tendance
+
+*  Filtres dynamiques
 
 -> Choix de la source de données
 
@@ -39,7 +41,7 @@ D/  Filtres dynamiques
 
 -> Choix de la période de prévision
 
-E/  Modèles de prévision implémentés
+* Modèles de prévision implémentés
 
 - Prophet (Meta) – recommandé pour séries temporelles
 
@@ -49,7 +51,7 @@ E/  Modèles de prévision implémentés
 
 - LSTM – deep learning (réseaux récurrents)
 
-F/  Résultats
+D/  Résultats
 
 -> Graphes historiques + prévisions
 
@@ -64,7 +66,7 @@ F/  Résultats
 
 Téléchargement des prévisions en CSV et Excel
 
-G/  Architecture du projet
+E/  Architecture du projet
 
 ECP_Kristen-vinia/
 │
@@ -86,7 +88,7 @@ ECP_Kristen-vinia/
 ├── requirements.txt
 └── README.md
 
-H/ Logique des modèles
+F/ Logique des modèles
          FAO (données agrégées)
 
 -> Série temporelle unique
@@ -101,7 +103,7 @@ H/ Logique des modèles
 
 -> Random Forest et LSTM adaptés aux données riches
 
-I/ Interprétation automatique (Decision Support)
+G/ Interprétation automatique (Decision Support)
 
 Pour chaque prévision, l’application génère un texte explicatif :
 
@@ -119,7 +121,7 @@ Ces textes sont conçus pour être :
 
 -> mais sous réserve d'une version 2
 
-J/  Installation et exécution
+H/  Installation et exécution
 
    1- Cloner le projet
     git clone 
@@ -143,7 +145,7 @@ J/  Installation et exécution
    4- Lancer l’application
     streamlit run app.py
 
-K/ Stack technique
+I/ Stack technique
 
 -> Python
 
